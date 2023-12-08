@@ -2,17 +2,16 @@
 
 @section('content')
 <div class="container my-3">
-
     <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
+        <div class="carousel-inner " style="height: 300px;">
             <div class="carousel-item active">
-                <img src="https://lzd-img-global.slatic.net/us/domino/63de35ef-e448-409b-986b-e42a70c20fdb_ID-1976-688.jpg_2200x2200q80.jpg_.webp" class="d-block w-100" alt="...">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/breaking-news-banner-design-template-43d6dcbf37ca0a7d1450cb20f76b96fb_screen.jpg?ts=1677499703" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://lzd-img-global.slatic.net/us/domino/63de35ef-e448-409b-986b-e42a70c20fdb_ID-1976-688.jpg_2200x2200q80.jpg_.webp" class="d-block w-100" alt="...">
+                <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX26402161.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://lzd-img-global.slatic.net/us/domino/63de35ef-e448-409b-986b-e42a70c20fdb_ID-1976-688.jpg_2200x2200q80.jpg_.webp" class="d-block w-100" alt="...">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe6n609FebolZuwjq5p_1EYgmpwxsb5497T_sB4ZmdZYatx8BqjQxyQh-4TUow6Ok2OlI&usqp=CAU" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -28,7 +27,7 @@
 <div class="container mt-3">
     <div class="row">
         @foreach ($allBerita as $item)
-        <div class="col-lg-4 col-md-6 my-3">
+        <div class="col-lg-4 col-md-6 my-2">
             <div class="card">
                 <img src="{{ asset('img/gambar/' . $item->gambar) }}" class="card-img-top" alt="...">
                 <div class="card-body">

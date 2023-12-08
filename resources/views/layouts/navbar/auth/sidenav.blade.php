@@ -3,7 +3,7 @@
         <svg class="bi pe-none me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
         </svg>
-        <span class="fs-4">Sidebar</span>
+        <span class="fs-4">Admind</span>
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
@@ -28,9 +28,9 @@
     <div class="dropdown">
         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
             data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="" width="32" height="32"
+            <img src="https://png.pngtree.com/png-vector/20230531/ourlarge/pngtree-boy-s-face-outline-coloring-page-vector-png-image_6787401.png" alt="" width="32" height="32"
                 class="rounded-circle me-2">
-            <strong>mdo</strong>
+            <strong>Alamsyah</strong>
         </a>
         <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
             <li><a class="dropdown-item" href="#"

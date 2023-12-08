@@ -33,15 +33,16 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">#</th>
+                                <th scope="col">No.</th>
                                 <th scope="col">Nama Kategori</th>
                                 <th scope="col">Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
+                        @php $no = 1; @endphp
                             @foreach ($allKategori as $item)
                             <tr>
-                                <th scope="row">1</th>
+                            <th>{{ $no++ }}</th>
                                 <td>{{$item->nama_kategori}}</td>
                                 <td>
                                     <a href="{{route('kategori.edit',$item->id)}}" class="btn btn-sm btn-success">edit</a>
